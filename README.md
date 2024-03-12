@@ -6,12 +6,12 @@ Sure I could also just bookmarks all the stuff, BUT having this wiki I can share
 ### Administration
 
 * DHCP + DNS
-  * [Setting up a KEA dhcp server with several connected NICs serving differents nets]()
+  * [Setting up a KEA dhcp server with several connected NICs serving differents nets](network::DHCP)
 * Firewall
-  * [`iptables`](iptables)
+  * [`iptables`](network::iptables)
 
 ### Network analysis
-* [nmap Examples](nmap)
+* [nmap Examples](utils::nmap)
 
 ## Virtualization
 
@@ -20,7 +20,7 @@ Sure I could also just bookmarks all the stuff, BUT having this wiki I can share
 
 ## Linux internals
 * Kernel stuff
-  * [Managing _Machine Owner Keys_](Managing-Machine-Owner-Keys) (needed for Kernel modules)
+  * [Managing _Machine Owner Keys_](kernel::Managing-Machine-Owner-Keys) (needed for Kernel modules)
 * [Multipathing Issues](Multipathing)
 
 ## Linux Housekeeping
