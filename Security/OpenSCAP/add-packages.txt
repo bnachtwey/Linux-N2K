@@ -1,0 +1,52 @@
+$ dnf install scap-workbench
+
+Dependencies resolved.
+==============================================================================================================================================================================================
+ Package                                            Architecture                        Version                                                  Repository                              Size
+==============================================================================================================================================================================================
+Installing:
+ scap-workbench                                     x86_64                              1.2.1-13.el9                                             appstream                              1.8 M
+Installing dependencies:
+ debugedit                                          x86_64                              5.0-4.el9                                                appstream                               76 k
+ dwz                                                x86_64                              0.14-3.el9                                               appstream                              127 k
+ efi-srpm-macros                                    noarch                              6-2.el9_0                                                appstream                               22 k
+ elfutils                                           x86_64                              0.189-3.el9                                              baseos                                 526 k
+ fonts-srpm-macros                                  noarch                              1:2.0.5-7.el9.1                                          appstream                               27 k
+ gdb-minimal                                        x86_64                              10.2-11.1.el9_3                                          appstream                              3.5 M
+ ghc-srpm-macros                                    noarch                              1.5.0-6.el9                                              appstream                              7.8 k
+ go-srpm-macros                                     noarch                              3.2.0-2.el9                                              appstream                               26 k
+ gtk2                                               x86_64                              2.24.33-8.el9                                            appstream                              3.5 M
+ ibus-gtk2                                          x86_64                              1.5.25-2.el9.rocky.0.1                                   appstream                               24 k
+ kernel-srpm-macros                                 noarch                              1.0-13.el9                                               appstream                               15 k
+ lua-srpm-macros                                    noarch                              1-6.el9                                                  appstream                              8.5 k
+ ocaml-srpm-macros                                  noarch                              6-6.el9                                                  appstream                              7.8 k
+ openblas-srpm-macros                               noarch                              2-11.el9                                                 appstream                              7.3 k
+ openscap                                           x86_64                              1:1.3.8-1.el9_2.rocky.1.0                                appstream                              1.9 M
+ openscap-scanner                                   x86_64                              1:1.3.8-1.el9_2.rocky.1.0                                appstream                               57 k
+ openscap-utils                                     x86_64                              1:1.3.8-1.el9_2.rocky.1.0                                appstream                               27 k
+ openssh-askpass                                    x86_64                              8.7p1-34.el9_3.3                                         appstream                               21 k
+ patch                                              x86_64                              2.7.6-16.el9                                             appstream                              127 k
+ pcre2-utf16                                        x86_64                              10.40-2.el9                                              appstream                              216 k
+ perl-srpm-macros                                   noarch                              1-41.el9                                                 appstream                              8.2 k
+ pyproject-srpm-macros                              noarch                              1.9.0-1.el9                                              appstream                               14 k
+ python-srpm-macros                                 noarch                              3.9-52.el9                                               appstream                               22 k
+ python3-argcomplete                                noarch                              1.12.0-5.el9                                             appstream                               61 k
+ qt5-qtbase                                         x86_64                              5.15.9-7.el9                                             appstream                              3.5 M
+ qt5-qtbase-common                                  noarch                              5.15.9-7.el9                                             appstream                              9.0 k
+ qt5-qtbase-gui                                     x86_64                              5.15.9-7.el9                                             appstream                              6.3 M
+ qt5-qtdeclarative                                  x86_64                              5.15.9-3.el9                                             appstream                              4.2 M
+ qt5-qtxmlpatterns                                  x86_64                              5.15.9-2.el9                                             appstream                              998 k
+ qt5-srpm-macros                                    noarch                              5.15.9-1.el9                                             appstream                              7.9 k
+ redhat-rpm-config                                  noarch                              201-1.el9                                                appstream                               66 k
+ rpm-build                                          x86_64                              4.16.1.3-27.el9_3                                        appstream                               58 k
+ rpmdevtools                                        noarch                              9.5-1.el9                                                appstream                               75 k
+ rust-srpm-macros                                   noarch                              17-4.el9                                                 appstream                              9.3 k
+ scap-security-guide                                noarch                              0.1.72-1.el9_3.rocky.1.0                                 appstream                              1.7 M
+ xcb-util-image                                     x86_64                              0.4.0-19.el9                                             appstream                               19 k
+ xcb-util-keysyms                                   x86_64                              0.4.0-17.el9                                             appstream                               14 k
+ xcb-util-renderutil                                x86_64                              0.3.9-20.el9                                             appstream                               17 k
+ xcb-util-wm                                        x86_64                              0.4.1-22.el9                                             appstream                               31 k
+ zstd                                               x86_64                              1.5.1-2.el9                                              baseos                                 546 k
+Installing weak dependencies:
+ adwaita-gtk2-theme                                 x86_64                              3.28-14.el9                                              appstream                              136 k
+ libcanberra-gtk2   
